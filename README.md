@@ -54,9 +54,9 @@ In our machine learning experiment, we implemented a comprehensive data augmenta
 ● Random Posterize: By reducing the color depth of images, this technique introduces a level of abstraction, forcing the model to focus on structural features rather than relying heavily on color information.
 ● Gaussian Blur: Applying a Gaussian blur to images mimics the effect of out-of-focus photography, teaching the model to extract relevant features even in less-than-ideal image clarity conditions.
 ● Color Jitter: This was a crucial step in our data augmentation process. We noticed that the samples, being from different labs, exhibited slight variations in color representation. By adjusting aspects like brightness, contrast, and saturation randomly, we aimed to make our model more resilient to these variations.
-![Alt text](Images/image-008.png)
+![Alt text](Images/image-008.jpg)
 
-![Alt text](Images/image-009.png)
+![Alt text](Images/image-009.jpg)
 
 ### Approach 5: CutMix & MixUp Data Augmentation
 Why?
